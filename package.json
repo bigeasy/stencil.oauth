@@ -1,0 +1,14 @@
+{   "name":             "stencil.oauth"
+,   "description" :     "Stencil OAuth example."
+,   "version":          "0.0.0"
+,   "author":           "Matthew Weitzel"
+,   "dependencies":
+  { "register": ">=0"
+  , "stencil": ">=0"
+  , "connect": ">=2"
+  , "reactor": ">=0"
+  , "cadence": ">=0"
+  }
+, "devDependencies": { "proof": "0.0.28" }
+, "scripts" : { "test": "proof t/*/*.t.js" }
+}
